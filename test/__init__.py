@@ -1,2 +1,2 @@
-import test.broker
-import test.gocdBuildStatusTransformer
+import test.test_broker
+import test.test_gocdBuildStatusTransformer

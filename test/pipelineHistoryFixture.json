@@ -86,7 +86,7 @@
       "trigger_forced": true,
       "trigger_message": "Forced by anonymous"
     },
-    "name": "pipeline1",
+    "name": "pipeline2",
     "natural_order": 10,
     "can_run": true,
     "comment": null,
