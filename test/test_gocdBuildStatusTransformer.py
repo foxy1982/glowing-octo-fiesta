@@ -16,7 +16,7 @@ class GocdBuildStatusTransformerTest(unittest.TestCase):
 		recorder = BuildStatusRecorder()
 		transformer = GocdBuildStatusTransformer(recorder.updateBuildStatuses)
 
-		with open('./test/pipelineHistoryFixture.json') as fixtureData:
+		with open('./test/fixture_pipelineHistory.json') as fixtureData:
 			fixtureObj = json.loads(fixtureData.read())
 
 		result = transformer.processBuildStatuses(fixtureObj)
