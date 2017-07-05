@@ -1,1 +1,2 @@
 from glowingoctofiesta.broker import Broker
+from glowingoctofiesta.gocdBuildStatusTransformer import GocdBuildStatusTransformer
